@@ -61,7 +61,9 @@
 git clone https://github.com/C/ParentChildMusicPlayer.git
 cd ParentChildMusicPlayer
 pip install -r requirements.txt
-# 请先创建 PostgreSQL 数据库并运行 database.sql 初始化表
+# 先拉取require里面的依赖库
+# 再在config.py里面进行配置数据库
+# 接着运行创建 PostgreSQL 数据库并运行 database.sql 初始化表
 python main.py
 ```
 
